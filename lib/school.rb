@@ -19,4 +19,10 @@ class School
     end
     @roster[genre] << name
   end
+  
+  def grade(num)
+    @grade = num
+  end
+  
+  
 end
