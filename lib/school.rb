@@ -2,6 +2,6 @@
 
 class School
   
-  def initialize(school)
+  def initialize(school_name)
     @school = school
   end
