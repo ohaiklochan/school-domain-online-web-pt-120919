@@ -24,7 +24,6 @@ class School
   end
   
   def sort
-    hash = {}
     @roster.each do |key, value|
       value.sort!
     end
