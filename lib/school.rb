@@ -21,7 +21,6 @@ class School
   end
   
   def grade(num)
-    @grade = num
     @roster = num
   end
   
