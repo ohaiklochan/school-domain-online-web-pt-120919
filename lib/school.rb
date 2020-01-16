@@ -12,5 +12,7 @@ class School
   end
   
   def add_a_student(name, grade)
-    
+    @student_name = name
+    @grade = grade
+    if student.include?
 end
