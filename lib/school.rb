@@ -12,12 +12,11 @@ class School
   end
   
   def add_a_student(name, grade)
-    @student_name = name
-    @grade = grade
-    if @roster.include?(grade) == false
-      @roster = [grade]
+    if @roster[grade] != nil
+      @roster[grade] << name
+    else
+      @roster[grade] = [name]
     end
-    @roster[genre] << name
   end
   
   def grade(num)
